@@ -1,0 +1,2 @@
+data_NewsForecast/Finance_Australia/Exchang_all_data_2019-2020_D_final_processed.csv filter=lfs diff=lfs merge=lfs -text
+data/Environment/NewYork_AQI_Day.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,56 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training outputs
+checkpoints/
+results/
+test_results/
+logs/
+wandb/
+runs/
+
+# Model checkpoints / large training artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Pickle cache files anywhere in the repository
+*.pkl
+
+# Backup files generated during cleaning
+run_backup_before_clean*.py
+exp/*backup*.py
+
+# Temporary files
+*.tmp
+*.bak
+
+# Experiment result files
+result_tra_bert
+result_*
+
+# Unused experiment files for public DATransformer release
+exp/exp_anomaly_detection.py
+exp/exp_classification.py
+exp/exp_imputation.py
+exp/exp_short_term_forecasting.py
+exp/old_exp_long_term_forecasting.py
+exp/A_Standarization_Report.ipynb
+exp/A_Standarization_Search.ipynb
