@@ -158,3 +158,12 @@ If you use this repository, please cite:
   year={2026}
 }
 ```
+
+## Acknowledgements / Third-party Code
+
+This project is developed based on [MM-TSFlib](https://github.com/AdityaLab/MM-TSFlib), which is licensed under the MIT License.
+
+We appreciate the authors of MM-TSFlib for providing the original open-source implementation for multimodal time-series forecasting. This repository extends and modifies the original codebase to implement **Dual Alignment Networks** and the cleaned public version of **DA-Transformer**.
+
+The original MIT License notice of MM-TSFlib should be preserved in this repository, for example in `THIRD_PARTY_NOTICES.md` or an equivalent license notice file.
+
