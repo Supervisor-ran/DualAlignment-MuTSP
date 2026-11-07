@@ -151,11 +151,25 @@ These directories are ignored by Git.
 If you use this repository, please cite:
 
 ```bibtex
-@inproceedings{liu2026dualalignment,
-  title={Dual Alignment Networks for Cross-domain Multimodal Time Series Prediction},
-  author={Liu, Ran and Mine, Tsunenori},
-  booktitle={ECML PKDD},
-  year={2026}
+@InProceedings{10.1007/978-3-032-37676-3_16,
+author="Liu, Ran
+and Mine, Tsunenori",
+editor="Ceci, Michelangelo
+and Kocev, Dragi
+and Monreale, Anna
+and Vens, Celine
+and Flach, Peter
+and Manco, Giuseppe
+and Spiliopoulou, Myra
+and Masciari, Elio",
+title="Dual Alignment Networks for Cross-Domain Multimodal Time Series Prediction",
+booktitle="Machine Learning and Knowledge Discovery in Databases. Research Track",
+year="2027",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="271--288",
+abstract="Multimodal time series prediction (MuTSP) aims to forecast numerical time series with the assistance of time-aligned multimodal signals such as text. In cross-domain settings, however, textual descriptions and numerical dynamics often exhibit mismatched granularity: textual signals are frequently event-driven or summary-style, while numerical series are sampled at fixed intervals. Most multimodal forecasting approaches rely on fusion mechanisms that implicitly assume well-aligned cross-modal signals. When this assumption is violated, fusion may introduce unstable interactions and spurious correlations.",
+isbn="978-3-032-37676-3"
 }
 ```
 
